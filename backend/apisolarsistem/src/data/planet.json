@@ -1,6 +1,115 @@
-[
+{"lista":
+[ 
     {
-        "id": "Mercurio",
-        "temp": ""
+        "id":"1",
+        "name":"Mercúrio",
+        "temp": ["min: -183.15°C", 
+        "med: 166.85°C", 
+        "max: 426.85°C"],
+        "img":"",
+        "satnat": "none",
+        "rad":"2.439,7Km",
+        "daytime":"58d 15h 30m",
+        "revtime":"88d" 
+        
+        
+    },
+    {
+        "id":"2",
+        "name":"Vênus",
+        "temp": ["min: 450°C", 
+        "med: 461°C", 
+        "max: 482°C"],
+        "img":"",
+        "satnat":"none",
+        "rad":"6.051,8Km",
+        "daytime":"243 dias",
+        "revtime":"224.7 dias" 
+    },
+    {
+        "id":"3",
+        "name":"Terra",
+        "temp": ["min: -93.2°C", 
+        "med: 14°C", 
+        "max: 57.88°C"],
+        "img":"",
+        "satnat":"1:Lua",
+        "rad":"6.378,1Km",
+        "daytime":"0.99 dias",
+        "revtime":"365.26 dias" 
+        
+    },
+    {
+        "id":"4",
+        "name":"Marte",
+        "temp":["min: -143°C", 
+        "med: -63°C", 
+        "max: 35°C"],
+        "img":"",
+        "satnat":"2: Fobos, Diemos",
+        "rad":"3.389,5Km",
+        "daytime":"1.03 dias",
+        "revtime":"1.88 anos" 
+    },
+    {
+        "id":"5",
+        "name":"Júpter",
+        "temp":["min: -163°C", 
+        "med: -144°C", 
+        "max: -108°C"],
+        "img":"",
+        "satnat":"79 Entre elas: Europa, Ganímedes, Io, Calisto...",
+        "rad":"69.911Km",
+        "daytime":"0.41 dias",
+        "revtime":"11.86 anos" 
+    },
+    {
+        "id":"6",
+        "name":"Saturno",
+        "temp":["min: -184°C", 
+        "med: -139°C", 
+        "max: -110°C"],
+        "img":"",
+        "satnat":"89 Entre elas: Titã, Encélado, Mimas, Dione, Tétis, Jápeto....",
+        "rad":"58.232Km",
+        "daytime":"0.45 dias",
+        "revtime":"29.46 anos" 
+    },
+    {
+        "id":"7",
+        "name":"Urano",
+        "temp":["min: -224°C", 
+        "med: -220°C", 
+        "max: -216°C"],
+        "img":"",
+        "satnat":"27 Entre elas: Titânia, Oberon, Umbriel, Miranda, Ariel....",
+        "rad":"25.362Km",
+        "daytime":"0.72 dias",
+        "revtime":"84.01 anos" 
+    },
+    {
+        "id":"8",
+        "name":"Netuno",
+        "temp":["min: -235°C", 
+        "med: -223.15°C", 
+        "max: -215°C"],
+        "img":"",
+        "satnat":"13 Entre elas: Tritão, Talassa, Hipocampo, Neso, Nereida...",
+        "rad":"24.622Km",
+        "daytime":"0.67 dias",
+        "revtime":"164.79 anos" 
+    },
+    {
+        "id":"9",
+        "name":"Plutão",
+        "temp":["min: -240°C", 
+        "med: -229°C", 
+        "max: -218°C"],
+        "img":"",
+        "satnat":"5: Caronte, Estige, Nix, Hidra, Cérbero",
+        "rad":"1.188,3Km",
+        "daytime":"6.39 dias",
+        "revtime":"248.59 anos" 
+        
     }
-]
+]}
