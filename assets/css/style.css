@@ -1,0 +1,36 @@
+/*Css do body*/
+
+body {
+    background-image: url(../imagens/background.jpg);
+    background-size: 220vh;
+    min-height: 100vh;
+}
+
+
+/* Css do header*/
+/*font-family: 'Spartan' salvando essa font para não esquecer de usar ela no main*/
+
+
+.titulo {
+    font-size: 2em;
+    color: #FFFFFF;
+    padding: 1em;
+    font-family: 'Antonio';
+    width: 11%;
+}
+
+.listatopo {
+    font-size: 1em;
+    color: #868383;
+    padding: 1em;
+    font-family: 'Antonio';
+    display: flex;
+    position: relative;
+    left: 60%;
+    bottom: 5em;
+    width: 30%;
+}
+
+.listatopo li {
+    padding:1em;
+}

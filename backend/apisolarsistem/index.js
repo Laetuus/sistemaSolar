@@ -1,12 +1,11 @@
 const express = require('express'); //Declaração do express 
 const server = express();
-const fs = require("fs");
+const planetas = require('./src/data/planet.json');
 
-server.get('/teste', (req, res) => {
-    var imagem = fs.readFileSync('./assetsapi/1.png');
-    var base64 = Buffer(imagem).toString('base64');
+server.get('/planetas', (req, res) => {
+    
 
-    return res.json({'usuario': base64})
+    return res.json(planetas)
 })  // Mensagem de retorno do servidor
 
 server.listen(3000, () => {
