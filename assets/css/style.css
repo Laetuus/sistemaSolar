@@ -1,7 +1,7 @@
 /*Css do body*/
 
 body {
-    background-image: url(../imagens/background.jpg);
+    background: URL(../imagens/background.jpg);
     background-size: 220vh;
     min-height: 100vh;
 }
@@ -21,7 +21,7 @@ body {
 
 .listatopo {
     font-size: 1em;
-    color: #868383;
+    color: #cacaca;
     padding: 1em;
     font-family: 'Antonio';
     display: flex;
@@ -29,7 +29,10 @@ body {
     left: 60%;
     bottom: 5em;
     width: 30%;
+
+    
 }
+
 
 .listatopo li {
     padding:1em;

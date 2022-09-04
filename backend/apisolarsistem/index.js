@@ -1,6 +1,9 @@
 const express = require('express'); //Declaração do express 
 const server = express();
 const planetas = require('./src/data/planet.json');
+const cors = require('cors')
+
+server.use(cors ())
 
 server.get('/planetas', (req, res) => {
     
