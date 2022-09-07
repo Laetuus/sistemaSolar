@@ -10,6 +10,9 @@ body {
 /* Css do header*/
 /*font-family: 'Spartan' salvando essa font para não esquecer de usar ela no main*/
 
+header {
+    border-bottom: 2px solid #878181;
+}
 
 .titulo {
     font-size: 2em;
@@ -21,13 +24,13 @@ body {
 
 .botaotopo {
     position: relative;
-    left: 60%;
+    left: 55%;
     bottom: 2em;
-    width: 35%;
+    width: 42%;
 }
 
 .botaotopo input {
-    font-size: 1em;
+    font-size: 1.5em;
     color: #cacaca;
     font-family: 'Antonio';
     left: 58%;
@@ -38,8 +41,7 @@ body {
 
 
 .botaotopo input:hover {
-    font-size: 1.1em;
-    color: #1ce2d8;
+    color: #9f9f9f;
     font-family: 'Antonio';
     left: 58%;
     bottom: 4em;
@@ -49,20 +51,74 @@ body {
 }
 
 .botaotopo input:active {
-    color: #1ce286;
+    color: #8e8a8a;
 }
 
-.dadosplaneta {
-    font-size: 2em;
+/* Css do Main */
+
+.imagem_planeta {
+    position: relative;
+    left: 35%;
+    height: 15em;
+    top: 16em;
+    color: #FFFFFF;
+    font-family: 'Antonio';
+}
+
+.dados {
+    font-size: 2.5em;
     color: #FFFFFF;
     padding: 1em;
     font-family: 'Antonio';
     width: 11%;
+    position: relative;
+    left: 10%;
+    top: 9em;
 }
 #nomeplaneta {
-    font-size: 2em;
-    color: #FFFFFF;
+    font-size: 4em;
+    color: #e0d6d6;
     padding: 1em;
     font-family: 'Antonio';
     width: 11%;
+    position: relative;
+    top: 4em;
+    left: 60%;
+    
+}
+
+.listaplaneta {
+    position: relative;
+    width: 87%;
+    left: 4%;
+    top: 25em;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.listaplaneta li {
+    border: 2px solid #878181;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+}
+
+.listaplaneta p {
+    color: #878181;
+    font-size: 1em;
+    font-family: 'Antonio';
+    padding: 0 0 1em 0;
+
+}
+
+.listaplaneta span {
+    color: #FFFFFF;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    padding: 1em;
+    font-family: 'Antonio';
+    border: 2px #CCCCCC;
+    
 }

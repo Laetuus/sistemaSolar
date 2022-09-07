@@ -7,7 +7,7 @@ server.use(cors ())
 
 server.get('/planetas', (req, res) => {
     
-
+    
     return res.json(planetas)
 })  // Mensagem de retorno do servidor
 
