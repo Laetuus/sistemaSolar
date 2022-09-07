@@ -1,19 +1,13 @@
-const ordemplaneta = document.querySelector('.ordem');
-const tempplaneta = document.querySelector('.temperatura');
-const satnatural = document.querySelector('.satelites');
-const raio = document.querySelector('.raio');
-const tempodia = document.querySelector('.tempodia');
-const tempoano = document.querySelector('.tempoano');
 
+let planetas = []
+var planetinha = document.querySelector('#nomeplaneta')
+const endpointDaAPI = 'http://localhost:3000/planetas'
 
-const fetchPlaneta = async () => {
+getBuscarPlanetasAPI()
 
-    const APIResponse = await fetch(`http://localhost:3000/planetas`)
-
-    const data = await APIResponse.json();
-
-    console.log(data);
-
-
+async function getBuscarPlanetasAPI() {
+    const res = await fetch(endpointDaAPI)
+    planetas = await res.json()
+    console.log(planetas)
+    planetas.forEach(planeta => planetinha.innerHTML += planeta.name)
 }
-fetchPlaneta();

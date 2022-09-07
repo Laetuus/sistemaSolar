@@ -19,21 +19,50 @@ body {
     width: 11%;
 }
 
-.listatopo {
-    font-size: 1em;
-    color: #cacaca;
-    padding: 1em;
-    font-family: 'Antonio';
-    display: flex;
+.botaotopo {
     position: relative;
     left: 60%;
-    bottom: 5em;
-    width: 30%;
+    bottom: 2em;
+    width: 35%;
+}
 
-    
+.botaotopo input {
+    font-size: 1em;
+    color: #cacaca;
+    font-family: 'Antonio';
+    left: 58%;
+    bottom: 4em;
+    background-color: transparent;
+    border: none;
 }
 
 
-.listatopo li {
-    padding:1em;
+.botaotopo input:hover {
+    font-size: 1.1em;
+    color: #1ce2d8;
+    font-family: 'Antonio';
+    left: 58%;
+    bottom: 4em;
+    background-color: transparent;
+    border: none;
+    transition: 00.6s;
+}
+
+.botaotopo input:active {
+    color: #1ce286;
+}
+
+.dadosplaneta {
+    font-size: 2em;
+    color: #FFFFFF;
+    padding: 1em;
+    font-family: 'Antonio';
+    width: 11%;
+}
+#nomeplaneta {
+    font-size: 2em;
+    color: #FFFFFF;
+    padding: 1em;
+    font-family: 'Antonio';
+    width: 11%;
 }

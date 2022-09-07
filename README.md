@@ -12,8 +12,9 @@ Esse projeto tem como por propósito os seguintes objetivos:
 
 ## Estado atual do projeto
 
-Até o momento dia 01/09 estou colocando os dados na API que estou criando, colocar imagem na API está se mostrando um verdadeiro desafio que trabalharei nos proximos dias, no dia 04/09 foi integrado a API com o Front-end.
-Os passos finais do projeto é o ajuste do JavaScript do Front-end e ajuste do CSS.
+Até o momento dia 01/09 estou colocando os dados na API que estou criando, colocar imagem na API está se mostrando um verdadeiro desafio que trabalharei nos proximos dias, no dia 04/09 foi integrado a API com o Front-end. Os passos finais do projeto é o ajuste do JavaScript do Front-end e ajuste do CSS.
+
+
 <h2 align="centre">Tecnologias Usadas</h2>
 
 <div align="center">

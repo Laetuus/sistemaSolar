@@ -1,30 +1,30 @@
-{"lista":
-[ 
-    {
-        "id":"1",
-        "name":"Mercúrio",
-        "temp": ["min: -183.15°C", 
-        "med: 166.85°C", 
-        "max: 426.85°C"],
-        "img":"./assetsapi/1.png",
-        "satnat": "none",
-        "rad":"2.439,7Km",
-        "daytime":"58d 15h 30m",
-        "revtime":"88d" 
-        
+[
+        { 
+           
+                "id":"1",
+                "name":"Mercúrio",
+                "temp": "min: -183.15°C med: 166.85°C max: 426.85°C",
+                "img":"./assetsapi/1.png",
+                "satnat": "none",
+                "rad":"2.439,7Km",
+                "daytime":"58d 15h 30m",
+                "revtime":"88d" 
         
     },
+    
     {
-        "id":"2",
-        "name":"Vênus",
-        "temp": ["min: 450°C", 
-        "med: 461°C", 
-        "max: 482°C"],
-        "img":"./assetsapi/2.png",
-        "satnat":"none",
-        "rad":"6.051,8Km",
-        "daytime":"243 dias",
-        "revtime":"224.7 dias" 
+       
+            "id":"2",
+            "name":"Vênus",
+            "temp": ["min: 450°C", 
+            "med: 461°C", 
+            "max: 482°C"],
+            "img":"./assetsapi/2.png",
+            "satnat":"none",
+            "rad":"6.051,8Km",
+            "daytime":"243 dias",
+            "revtime":"224.7 dias" 
+        
     },
     {
         "id":"3",
@@ -112,4 +112,4 @@
         "revtime":"248.59 anos" 
         
     }
-]}
+]
