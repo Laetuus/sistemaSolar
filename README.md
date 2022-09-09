@@ -12,8 +12,16 @@ Esse projeto tem como por propósito os seguintes objetivos:
 
 ## Estado atual do projeto
 
-Até o momento dia 01/09 estou colocando os dados na API que estou criando, colocar imagem na API está se mostrando um verdadeiro desafio que trabalharei nos proximos dias, no dia 04/09 foi integrado a API com o Front-end. Os passos finais do projeto é o ajuste do JavaScript do Front-end e ajuste do CSS.
+Até o momento dia 01/09 estou colocando os dados na API que estou criando, colocar imagem na API está se mostrando um verdadeiro desafio que trabalharei nos proximos dias, no dia 04/09 foi integrado a API com o Front-end. Os passos finais do projeto é o ajuste do JavaScript do Front-end e ajuste do CSS, o projeto foi finalizado no dia 07/09/2022 totalizando **7** dias de projeto.
 
+## Gif do Resultado 
+
+<div align="centre">
+<img align="centre" alt="Design final do projeto" height="400" width="500" src="./assets/design/resultado.gif">
+
+## Desafios do projeto
+
+Durante o projeto tive vários desafios como: organização do JSON de uma API com vários elementos, integração dessa mesma API com o front-end, mas principalmente meu maior desafio foi fazer o botão selecionar um item especifico da API, onde consegui superar fazendo com que o JS buscasse pelo valor do botão semelhante a API, também fazendo com que após localizar esse valor, ele consiga criar uma estrutura HTML para que se possa mostrar os dados encontrados por aquele botão.
 
 <h2 align="centre">Tecnologias Usadas</h2>
 
