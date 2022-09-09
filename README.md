@@ -17,7 +17,7 @@ Até o momento dia 01/09 estou colocando os dados na API que estou criando, colo
 ## Gif do Resultado 
 
 <div align="centre">
-<img align="centre" alt="Design final do projeto" height="400" width="500" src="./assets/design/resultado.gif">
+<img align="centre" alt="Design final do projeto" height="400" width="600" src="./assets/design/resultado.gif">
 
 ## Desafios do projeto
 
